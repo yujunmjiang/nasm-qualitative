@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Aircraft Color Schemes</title>
+		<meta name="description" content="Creating a color palette from images in a fun way using Vibrant.js" />
+		<meta name="keywords" content="color palette, effect, animation, vibrant.js, extract color, image, web design" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+  		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<svg viewBox="0 0 640 360" class="hidden">
+			<filter id="grayscale">
+				<feColorMatrix type="saturate" values="0"/>
+			</filter>
+		</svg>
+		<div class="container">
+			<header class="codrops-header">
+				<!-- <div class="codrops-links">
+					<a class="codrops-icon codrops-icon--prev" href="http://tympanus.net/Development/ImageTiltEffect/" title="Previous Demo"><span>Previous Demo</span></a>
+					<a class="codrops-icon codrops-icon--drop" href="http://tympanus.net/codrops/?p=24144" title="Back to the article"><span>Back to the Codrops article</span></a>
+				</div> -->
+				<h1>A Eyedropper Tool for NASM Collection <span>Finding the color schemes for aircraft livery.</span></h1>
+			</header>
+			<div class="content">
+				<div class="intro">
+					<p>An aircraft livery is a set of comprehensive insignia comprising color, graphic, and typographical identifiers which operators (airlines, governments, air forces and occasionally private and corporate owners) apply to their aircraft.
+					<br /><br /> As aircraft liveries evolved in the years after the Second World War, they became a leading subset of the emerging disciplines of corporate identity and branding and among the most prominent examples of fashion. They have provided an arena for the work of distinguished designers and eminent lay people like Raymond Loewy, Alexander Girard, and Jacqueline Kennedy Onassis. The term is an adaptation of the word livery: the uniform-style clothing worn by servants of wealthy families and government representatives until the early/mid-20th century. With the advent of stagecoaches, railway trains, and steamships, the term livery spread to their decoration. Since the 1950s, elements of airline liveries permeated ground vehicles, advertising, proprietary airport furniture, airline promotional materials and aircrew uniforms in an increasingly integrated manner, spreading to airline websites in the 1990s.
+				    <br /><br /> Since the 1950s and 60s, aircraft liveries have usually been uniform livery across an entire fleet. One-off custom-designs might be applied from time to time to individual fleet members to highlight set occasions.</p>
+				</div>
+				<div id="slider" class="slider">
+					<div class="slider__item slider__item--current">
+						<img class="slider__img" src="img/NASM-2006-28825-1.jpg" alt="img001" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19190007000-NASM2018-10173-1.jpg" alt="img002" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19190051000-NASM2018-10688-1.jpg" alt="img003" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19200004000-NASM2018-10468-000002-1.jpg" alt="img004" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19280009000-NASM2018-10207-1.jpg" alt="img005" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19320006000-NASM2016-04980-1.jpg" alt="img006" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19340060000-NASM2018-10787-1.jpg" alt="img007" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19350058000-NASM2019-01744-1.jpg" alt="img008" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19490022000-NASM2019-02438-1.jpg" alt="img009" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19500080000-NASM2019-01002-1.jpg" alt="img010" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19500092000-NASM2018-10122-1.jpg" alt="img011" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19500094000-NASM2018-02606-1.jpg" alt="img012" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19500095000-NASM2018-10832-1.jpg" alt="img013" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19540015000-NASM2018-10191-1.jpg" alt="img014" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19560041000-NASM2018-10278-1.jpg" alt="img015" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19600130000-NASM2018-10649-000001-1.jpg" alt="img016" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19600296000-NASM2018-10648-1.jpg" alt="img017" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19600300000-NASM2018-10346-000001-1.jpg" alt="img018" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19600300000-NASM2018-10346-000001-1.jpg" alt="img019" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19600327000-NASM2018-10751-1.jpg" alt="img020" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19600331000-NASM2018-10327-000002-1.jpg" alt="img021" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19600335000-NASM2018-10400-000001-1.jpg" alt="img022" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19610020000-NASM2019-00594-1.jpg" alt="img023" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19620099000-NASM2018-10221-1.jpg" alt="img024" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19670093000-NASM2018-10363-000001-1.jpg" alt="img025" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19731672000-NASM2019-05746-1.jpg" alt="img026" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19751349000-NASM2019-00981-1.jpg" alt="img027" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19761792000-NASM2016-03550-1.jpg" alt="img028" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19771128000-NASM2019-01671-1.jpg" alt="img029" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19810023000-NASM2018-10277-1.jpg" alt="img030" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19810023000-NASM2018-10277-1.jpg" alt="img031" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19810858000-NASM2019-01516-1.jpg" alt="img032" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19810858000-NASM2019-01516-1.jpg" alt="img033" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19850059000-NASM2018-10366-000001-1.jpg" alt="img034" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19860009000-NASM2019-01519-1.jpg" alt="img035" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A19940151000-NASM2018-10192-1.jpg" alt="img036" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-A20120137000-NASM2019-05762-1.jpg" alt="img037" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-NASM2013-00640-1.jpg" alt="img038" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-NASM2014-01653-1.jpg" alt="img039" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-NASM2019-07773-1.jpg" alt="img040" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-NASM2019-07792-1.jpg" alt="img041" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-NASM2020-00142-000001-1.jpg" alt="img042" />
+					</div>
+					<div class="slider__item">
+						<img class="slider__img" src="img/NASM-SI-2004-18187-1.jpg" alt="img043" />
+					</div>
+					<nav class="slider__nav-wrap">
+						<button class="slider__nav slider__nav--prev"><i class="fa fa-angle-left"></i><span class="text-hidden">Previous</span></button>
+						<button class="slider__nav slider__nav--next"><i class="fa fa-angle-right"></i><span class="text-hidden">Next</span></button>
+					</nav>
+				</div><!-- /slider -->
+				<div class="tools">
+					<button class="button-color"><i class="fa fa-eyedropper"></i><span class="text-hidden">Extract</span></button>
+					<ul class="palette">
+						<li class="palette__item">
+							<div class="palette__inner">
+								<div class="palette__fill"></div>
+								<i class="icon fa fa-tint"></i>
+								<div class="palette__name">
+									<span class="palette__value palette__value--default">#######</span>
+									<span class="palette__value palette__value--real">#######</span>
+								</div>
+							</div>
+							<i class="drop drop--1"></i>
+							<i class="drop drop--2"></i>
+							<i class="drop drop--3"></i>
+							<i class="drop drop--4"></i>
+						</li>
+						<li class="palette__item">
+							<div class="palette__inner">
+								<div class="palette__fill"></div>
+								<i class="icon fa fa-tint"></i>
+								<div class="palette__name">
+									<span class="palette__value palette__value--default">#######</span>
+									<span class="palette__value palette__value--real">#######</span>
+								</div>
+							</div>
+							<i class="drop drop--1"></i>
+							<i class="drop drop--2"></i>
+							<i class="drop drop--3"></i>
+							<i class="drop drop--4"></i>
+						</li>
+						<li class="palette__item">
+							<div class="palette__inner">
+								<div class="palette__fill"></div>
+								<i class="icon fa fa-tint"></i>
+								<div class="palette__name">
+									<span class="palette__value palette__value--default">#######</span>
+									<span class="palette__value palette__value--real">#######</span>
+								</div>
+							</div>
+							<i class="drop drop--1"></i>
+							<i class="drop drop--2"></i>
+							<i class="drop drop--3"></i>
+							<i class="drop drop--4"></i>
+						</li>
+						<li class="palette__item">
+							<div class="palette__inner">
+								<div class="palette__fill"></div>
+								<i class="icon fa fa-tint"></i>
+								<div class="palette__name">
+									<span class="palette__value palette__value--default">#######</span>
+									<span class="palette__value palette__value--real">#######</span>
+								</div>
+							</div>
+							<i class="drop drop--1"></i>
+							<i class="drop drop--2"></i>
+							<i class="drop drop--3"></i>
+							<i class="drop drop--4"></i>
+						</li>
+						<li class="palette__item">
+							<div class="palette__inner">
+								<div class="palette__fill"></div>
+								<i class="icon fa fa-tint"></i>
+								<div class="palette__name">
+									<span class="palette__value palette__value--default">#######</span>
+									<span class="palette__value palette__value--real">#######</span>
+								</div>
+							</div>
+							<i class="drop drop--1"></i>
+							<i class="drop drop--2"></i>
+							<i class="drop drop--3"></i>
+							<i class="drop drop--4"></i>
+						</li>
+					</ul>
+				</div><!-- /tools -->
+			</div>
+			<!-- Related demos -->
+			<!-- <section class="content content--related">
+				<p>If you enjoyed this demo you might also like:</p>
+				<a class="media-item" href="http://tympanus.net/Development/InteractiveColoringConcept/">
+					<img class="media-item__img" src="img/related/ColoringConcept.jpg">
+					<h3 class="media-item__title">Interactive Coloring Concept </h3>
+				</a>
+				<a class="media-item" href="http://tympanus.net/Development/WobblySlideshowEffect/">
+					<img class="media-item__img" src="img/related/WobblySlideshowEffect.png">
+					<h3 class="media-item__title">Wobbly Slideshow Effect</h3>
+				</a>
+			</section> -->
+			<section class="content">
+				<p><strong>Data collected by <a href="https://www.si.edu/" target="_blank">Smithsonian Institution</a></strong></p>
+			</section>
+		</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/Vibrant.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
