@@ -20,3 +20,12 @@ Since the 1950s and 60s, aircraft liveries have usually been uniform livery acro
 - Stacked bar chart (gradient) can represent the aesthetic standard by decades
 
 <img src="https://github.com/yujunmjiang/major-studio-1-fall-20/blob/master/p2_air_and_space_color/document/ToW.png">
+
+#### What is next...
+
+- Sample size determination
+- Accurate color or color range
+- Regroup data by different categories (military vs. military use)
+- Symbol recognition by OpenCV
+
+<img src="https://github.com/yujunmjiang/major-studio-1-fall-20/blob/master/p2_air_and_space_color/document/newDev.jpg">
