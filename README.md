@@ -4,7 +4,7 @@ This visualization is a tool which allows people to extract color palette from t
 
 #### Aircraft Livery
 
-<img src="https://github.com/yujunmjiang/major-studio-1-fall-20/blob/master/p2_air_and_space_color/document/P51.jpg" width="50%">
+<img src="https://github.com/yujunmjiang/major-studio-1-fall-20/blob/master/p2_air_and_space_color/document/P51.jpg" width="50%"/>
 
 An aircraft livery is a set of comprehensive insignia comprising color, graphic, and typographical identifiers which operators (airlines, governments, air forces and occasionally private and corporate owners) apply to their aircraft.
 
