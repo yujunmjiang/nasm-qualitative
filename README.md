@@ -12,6 +12,8 @@ As aircraft liveries evolved in the years after the Second World War, they becam
 
 Since the 1950s and 60s, aircraft liveries have usually been uniform livery across an entire fleet. One-off custom-designs might be applied from time to time to individual fleet members to highlight set occasions.
 
+To check this data visualization project, please [click here](https://yujunmjiang.github.io/nasm-qualitative/).
+
 #### Visual Design
 
 - Swipe left or right
