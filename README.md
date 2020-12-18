@@ -29,5 +29,3 @@ To check this data visualization project, please [click here](https://yujunmjian
 - Accurate color or color range
 - Regroup data by different categories (military vs. military use)
 - Symbol recognition by OpenCV
-
-<img src="https://github.com/yujunmjiang/major-studio-1-fall-20/blob/master/p2_air_and_space_color/document/newDev.jpg">
